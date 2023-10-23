@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3,
+label {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    /* display: inline-block; */
+}
+
+label {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p,
+ul {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+li::marker {
+    color: #FBAD16;
+    font-weight: 700;
+}
+
+ul li ul {
+    list-style: square;
+    margin-top: 15px;
+}
+
+.sidebar {
+    width: 120px;
+    background: #4A4A4A;
+}
+
+.main__content {
+    margin: 0 0 0 120px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: radial-gradient(147.25% 147.25% at 53.02% 119.75%, #946433 15.56%, #7a4631 19.13%, #161415 47.19%);
+
+}
+
+.main__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+}
+
+.col-50 {
+    max-width: 54%;
+    flex: 0 0 54%;
+}
+
+.card-theme {
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .08) -12.05%, rgba(0, 0, 0, .08) 111.83%);
+    border-radius: 16px;
+    border: 1px solid #fce9bf;
+    padding: 15px;
+}
+
+.card-content {
+
+    height: auto;
+    padding: 10px 40px 40px;
+    color: white;
+    letter-spacing: 1.4px;
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    /* background-color: #2A282F; */
+    /* background-color: #c0bcca; */
+    /* border: 1px solid #c0bcca; */
+    border-radius: 10px;
+}
+
+.card-content img {
+    width: 60%;
+    margin: auto;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.card-content input {
+    border: 3px dashed #FBAD16;
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #F6F6FB;
+}
+
+.result {
+    color: #FBAD16;
+}
+
+.col-right {
+    width: 100%;
+}
+
+.col-right .card-content img {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.light .card-content {
+    background-color: #F9F9FB;
+    color: #161415;
+}
+.light .card-content input{
+    background: #F7FAFC;
+}
